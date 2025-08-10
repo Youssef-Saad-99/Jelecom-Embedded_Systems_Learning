@@ -1,0 +1,1 @@
+# A simple program that takes two integers and print the result of this equation ((num1 + num2) * 3) 2 - 10

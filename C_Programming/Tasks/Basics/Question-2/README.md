@@ -1,0 +1,1 @@
+# A simple program that takes two integers and print the biggest number and equal or not.

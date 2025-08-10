@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int number1, number2, way;
+
+void swap_1(int *number1, int *number2)
+{
+    int temp = *number1;
+    *number1 = *number2;
+    *number2 = temp;
+}
+
+int main()
+{
+    printf("Enter number one: ");
+    scanf("%d", &number1);
+    printf("Enter number two: ");
+    scanf("%d", &number2);
+    printf("Enter the way of swapping: ");
+    scanf("%d", &way);
+
+    switch (way)
+    {
+        case 1: swap_1(&number1, &number2); break;
+        case 2:
+    }
+}
