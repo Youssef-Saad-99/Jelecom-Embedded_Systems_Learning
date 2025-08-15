@@ -6,7 +6,7 @@ int binary(int *arr, int size, int num)
     int end = size - 1;
     int mid = (frist + end) / 2;
 
-    while (frist != end)
+    while (frist <= end)
     {
         mid = (frist + end) / 2;
         
@@ -14,7 +14,7 @@ int binary(int *arr, int size, int num)
         {
             return mid;
         }
-        else if (arr[mid] > num)
+        else if (num > arr[mid])
         {
             frist = mid + 1;
         }
