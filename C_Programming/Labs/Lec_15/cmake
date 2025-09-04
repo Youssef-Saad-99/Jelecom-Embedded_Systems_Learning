@@ -1,0 +1,5 @@
+run: main.i
+    gcc -c main.i -o main.obj
+
+main.i: main.c
+    gcc -E main.c -o main.i
