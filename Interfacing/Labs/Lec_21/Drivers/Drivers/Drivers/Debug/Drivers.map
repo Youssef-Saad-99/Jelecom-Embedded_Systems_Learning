@@ -18,9 +18,7 @@ Discarded input sections
  .text.DIO_u8ReadPinVal
                 0x00000000       0x5c MCAL/DIO/DIO_prog.o
  .text.DIO_voidSetPortDir
-                0x00000000      0x2c2 MCAL/DIO/DIO_prog.o
- .text.DIO_voidSetPortVal
-                0x00000000      0x2c2 MCAL/DIO/DIO_prog.o
+                0x00000000       0x20 MCAL/DIO/DIO_prog.o
  .text          0x00000000        0x0 d:/new folder (3)/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  .data          0x00000000        0x0 d:/new folder (3)/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  .bss           0x00000000        0x0 d:/new folder (3)/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
@@ -368,38 +366,38 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000       0x68
+.debug_aranges  0x00000000       0x60
  *(.debug_aranges)
  .debug_aranges
                 0x00000000       0x20 APP/main.o
  .debug_aranges
-                0x00000020       0x48 MCAL/DIO/DIO_prog.o
+                0x00000020       0x40 MCAL/DIO/DIO_prog.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x1721
+.debug_info     0x00000000      0x880
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x4e6 D:/New folder (3)/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
  .debug_info    0x000004e6      0x1d2 APP/main.o
- .debug_info    0x000006b8     0x1069 MCAL/DIO/DIO_prog.o
+ .debug_info    0x000006b8      0x1c8 MCAL/DIO/DIO_prog.o
 
-.debug_abbrev   0x00000000      0x66f
+.debug_abbrev   0x00000000      0x661
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x4a3 D:/New folder (3)/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
  .debug_abbrev  0x000004a3       0xff APP/main.o
- .debug_abbrev  0x000005a2       0xcd MCAL/DIO/DIO_prog.o
+ .debug_abbrev  0x000005a2       0xbf MCAL/DIO/DIO_prog.o
 
-.debug_line     0x00000000      0x770
+.debug_line     0x00000000      0x3f9
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x116 D:/New folder (3)/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
  .debug_line    0x00000116      0x142 APP/main.o
- .debug_line    0x00000258      0x518 MCAL/DIO/DIO_prog.o
+ .debug_line    0x00000258      0x1a1 MCAL/DIO/DIO_prog.o
 
-.debug_frame    0x00000000       0x98
+.debug_frame    0x00000000       0x88
  *(.debug_frame)
  .debug_frame   0x00000000       0x24 APP/main.o
- .debug_frame   0x00000024       0x74 MCAL/DIO/DIO_prog.o
+ .debug_frame   0x00000024       0x64 MCAL/DIO/DIO_prog.o
 
 .debug_str      0x00000000      0x40f
  *(.debug_str)
@@ -409,9 +407,9 @@ END GROUP
  .debug_str     0x00000377       0x98 MCAL/DIO/DIO_prog.o
                                 0x249 (size before relaxing)
 
-.debug_loc      0x00000000      0x64c
+.debug_loc      0x00000000      0x30c
  *(.debug_loc)
- .debug_loc     0x00000000      0x64c MCAL/DIO/DIO_prog.o
+ .debug_loc     0x00000000      0x30c MCAL/DIO/DIO_prog.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -431,10 +429,10 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000       0x48
+.debug_ranges   0x00000000       0x40
  *(.debug_ranges)
  .debug_ranges  0x00000000       0x10 APP/main.o
- .debug_ranges  0x00000010       0x38 MCAL/DIO/DIO_prog.o
+ .debug_ranges  0x00000010       0x30 MCAL/DIO/DIO_prog.o
 
 .debug_macro
  *(.debug_macro)
